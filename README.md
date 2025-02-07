@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Scala related to implicit null conversions within generic classes. The `MyClass` example showcases how assigning `null` to a generic type `T` can lead to unexpected behavior and potential `NullPointerExceptions` if `T` is not a nullable type. The provided solution offers a safer approach by explicitly handling potential null values.
